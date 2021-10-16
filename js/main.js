@@ -3,19 +3,19 @@
 
     let things = {
         Thing1 : {
-            name: "cinema",
+            name: "CINEMA",
             description: "sdadasd",
             image: "cinema.jpeg"
         },
 
         Thing2 : {
-            name: "music",
+            name: "MUSIC",
             description: "dasdsadas",
             image: "music.jpg"
         },
 
         Thing3 : {
-            name: "video games",
+            name: "VIDEO GAMES",
             description: "adssdads",
             image: "video_games.jpg"
         }
@@ -28,8 +28,7 @@
     //things = {};
     const theThing = document.querySelector("#favorite-items"),
     theDescrip = document.querySelector("p"),
-    theImage = document.querySelector(".image img"),
-    theTemplate = document.querySelector("#bio-template").content; 
+    theImage = document.querySelector(".image img")
 
 function showData(){
     let key = this.dataset.key;
