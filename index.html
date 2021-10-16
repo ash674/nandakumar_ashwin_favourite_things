@@ -4,14 +4,17 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
     <title>Document</title>
 </head>
 <body>
+    <h1>Favorite things</h1>
     <main>
-        <h1>Favorite things</h1>
-        <button class='more_button' data-key="Thing1">See more</button>
-        <button class='more_button' data-key="Thing2">See more</button>
-        <button class='more_button' data-key="Thing3">See more</button>
+        <section class="buttons">
+        <button class='more_button' data-key="Thing1">Film</button>
+        <button class='more_button' data-key="Thing2">Music</button>
+        <button class='more_button' data-key="Thing3">Game</button>
+    </section>
         <section id="favorite-items">
             <h2></h2>
         </section>
@@ -21,12 +24,6 @@
         <p class="description"></p>
     </main>
 <!-- templates go here -->
-<template id="bio-template">
-    <section class="panel" data-key="">
-
-        <h2 class="name"></h2>
-    </section>
-</template>
 <!-- end template -->
     <script src="js/main.js" type="module" defer></script>
 </body>
