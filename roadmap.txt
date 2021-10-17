@@ -1,0 +1,39 @@
+1. Files to be created:
+    · index.html
+    · Js folder with main.js in it
+    · Images folder with the images in it
+    · Sass directory with-
+      · main.scss file
+      · _index.scss inside modules folder
+    · Css folder
+
+index.html -
+1. Html template with link to css/main.css and js/main.js files 
+2. Buttons section with 3 buttons
+3. h2, p and img tag corresponding to JSON data we have
+4. Give all the tags class names or id names for styling
+
+main.js -
+
+
+things array - Store all the data we have in a array so we can display that by referring in showData function
+Function showData - Gets the info from JSON data we have and we use the function to show the data in UI
+
+
+1. things array with Thing1, Thing2, Thing3 (As per requirement)
+2. with each things having name, description, recommendation, image properties to it
+3. Select the button, h2, p and img tag that we used in index.html using querySelector
+4. Add an eventListener at the bottom for the buttons with function showData executing when it's clicked
+5. Open a new function called showData and declare key to be this.dataset.key (Stores the names of properties we have in Thing1, Thing2, Thing3)
+6. Using the name we have given to the button, h2, p and img in js after selection, use textContent property to change data according to the button that's being clicked
+7. using src property locate to images folder for the img tag(where the images are saved)
+
+main.scss -
+1. Import the file _index.scss in modules folder using import tag
+
+_index.scss -
+1. Style the page to your needs
+2. Watch the changes using sass --watch command to css folder
+
+main.css -
+1. Just link the file to index.html
