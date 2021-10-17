@@ -4,7 +4,7 @@
     let things = {
         Thing1 : {
             name: "CINEMA",
-            description: "sdadasd",
+            description: "I love films so much that i watch films pretty much every weekend. I watch that when i feel sad or bored or happy or in any mood i am in.",
             image: "cinema.jpeg"
         },
 

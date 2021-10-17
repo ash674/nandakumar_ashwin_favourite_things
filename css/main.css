@@ -9,9 +9,19 @@ body {
 h1 {
   color: #EEEEEE;
   text-align: center;
-  margin-bottom: 100px;
+  margin-bottom: 25px;
   font-family: "Nexa", Arial, Helvetica, sans-serif;
   letter-spacing: 0.75px;
+}
+
+h2 {
+  color: #EEEEEE;
+  font-size: 18px;
+  text-align: center;
+  margin-bottom: 100px;
+  font-weight: 400;
+  font-family: "Nexa", Arial, Helvetica, sans-serif;
+  letter-spacing: 0.5px;
 }
 
 .buttons {
@@ -47,7 +57,7 @@ button:hover {
   display: flex;
   text-align: center;
   justify-content: center;
-  font-family: "Europa", Arial, Helvetica, sans-serif;
+  font-family: "Shorelines Script", Arial, Helvetica, sans-serif;
   font-size: 20px;
   font-weight: lighter;
   letter-spacing: 0.7px;
@@ -60,19 +70,36 @@ button:hover {
   justify-content: center;
   font-family: "Europa", Arial, Helvetica, sans-serif;
   font-size: 16px;
+  width: 500px;
+  margin: 0 auto;
+  padding: 50px;
   font-weight: lighter;
   color: #EEEEEE;
+}
+
+.description:hover {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  border: #EEEEEE 2px solid;
+  transition: ease-in-out 100ms;
 }
 
 .image {
   display: flex;
   justify-content: center;
-  margin-top: 40px;
+  margin-top: 20px;
+  margin-bottom: 50px;
 }
 
 .image:hover {
   transform: scale(1.05);
   transition: ease-in 200ms;
+}
+
+.image img:hover {
+  -webkit-box-shadow: 0px 10px 13px -7px #000000, 1px -7px 11px 4px rgba(80, 80, 80, 0.08);
+  box-shadow: 0px 10px 13px -7px #000000, 1px -7px 11px 4px rgba(80, 80, 80, 0.08);
 }
 
 /*# sourceMappingURL=main.css.map */
